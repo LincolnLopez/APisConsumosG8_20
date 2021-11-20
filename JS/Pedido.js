@@ -28,8 +28,8 @@ function CargarPedidos() {
                     '<td>' + MiItems[i].FECHA_ENTREGA + '<td>' +
                     '<td>' + MiItems[i].ESTADO + '<td>' +
                     '<td>' +
-                    '<button class="btn btn-outline-warning" onclick="CargarPedido(' + MiItems[i].ID + ')">Editar</button>' +
-                    '<button class="btn btn-outline-warning" onclick="EliminarPedido(' + MiItems[i].ID + ')">Eliminar</button>' +
+                    '<button class="btn btn-secondary" onclick="CargarPedido(' + MiItems[i].ID + ')">Editar</button>' +
+                    '<button class="btn btn-primary" onclick="EliminarPedido(' + MiItems[i].ID + ')">Eliminar</button>' +
                     '<td>' +
                     '</tr>';
                 $('.pedidos').html(valores);
