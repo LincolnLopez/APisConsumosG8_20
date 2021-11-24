@@ -1,8 +1,8 @@
-var UrlGetFacturas ='http://localhost:90/G8_20/Facturas/controller/facturas.php?op=GetFacturas';
-var UrlPostFactura ='http://localhost:90/G8_20/Facturas/controller/Facturas.php?op=InsertFactura';
-var UrlGetUno ='http://localhost:90/G8_20/Facturas/controller/facturas.php?op=GetUno';
-var UrlPutFactura ='http://localhost:90/G8_20/Facturas/controller/facturas.php?op=UpdateFactura';
-var UrlDeleteFactura = 'http://localhost:90/G8_20/Facturas/controller/facturas.php?op=DeleteFactura';
+var UrlGetFacturas ='http://34.68.196.220:90/G8_20/Facturas/controller/facturas.php?op=GetFacturas';
+var UrlPostFactura ='http://34.68.196.220:90/G8_20/Facturas/controller/Facturas.php?op=InsertFactura';
+var UrlGetUno ='http://34.68.196.220:90/G8_20/Facturas/controller/facturas.php?op=GetUno';
+var UrlPutFactura ='http://34.68.196.220:90/G8_20/Facturas/controller/facturas.php?op=UpdateFactura';
+var UrlDeleteFactura = 'http://34.68.196.220:90/G8_20/Facturas/controller/facturas.php?op=DeleteFactura';
 
 $(document).ready(function(){
     CargarFacturas();
