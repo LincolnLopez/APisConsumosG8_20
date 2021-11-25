@@ -118,7 +118,7 @@ function ActualizarPedido(idpedido){
 }
 function EliminarPedido(idpedido){
     var datospedido = {
-        ID: idpedido
+        ID:idpedido
     };
 
     var datospedidojson = JSON.stringify(datospedido);
@@ -133,4 +133,5 @@ function EliminarPedido(idpedido){
         }
     });
     alert("Pedido Eliminado");
+    CargarPedidos();
 }
