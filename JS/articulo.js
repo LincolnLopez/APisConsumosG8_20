@@ -6,7 +6,7 @@ var UrlDeleteArticulo = 'http://34.68.196.220:90/G8_20/Articulos/controller/Arti
 $(document).ready(function(){
     CargarArticulos();
 });
-
+// funcion para cargar el formulario
 function CargarArticulos(){
     $.ajax({
         url: UrlGetArticulos,
@@ -37,6 +37,7 @@ function CargarArticulos(){
         }
     });
 }
+//funcion que agrega un articulo
 function AgregarArticulo(){
     var datosArticulos={
             DESCRIPCION: $('#DESCRIPCION').val(),
@@ -62,6 +63,7 @@ function AgregarArticulo(){
     alert("Articulo Agregado");
     location.reload()
 }
+//funcion que busca un articulo en especifico para poder editarlo
 function GetArticulo(idArticulo){
     var datosArticulo = {
         ID: idArticulo
@@ -87,6 +89,7 @@ function GetArticulo(idArticulo){
         }
    });
 }
+//funcion para actualizar los datos de un articulos
 function ActualizarArticulo(idArticulo){
     var datosArticulo={
         DESCRIPCION: $('#DESCRIPCION').val(),
@@ -112,6 +115,7 @@ function ActualizarArticulo(idArticulo){
     });
     alert("Articulo Actualizado");
 }
+//funcion para eliminar un articulos
 function EliminarArticulo(idArticulo){
 var datosArticulo={
     ID: idArticulo
