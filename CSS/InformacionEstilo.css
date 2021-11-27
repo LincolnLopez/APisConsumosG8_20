@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(217, 236, 236);
+}
+
+h1{
+    margin: 2em;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+p{
+    margin: 4em;
+    text-align: justify;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#Contenido {
+    border:1px solid black;
+    margin: 3em;
+}
